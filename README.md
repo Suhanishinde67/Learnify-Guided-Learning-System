@@ -1,2 +1,2 @@
 # Learnify-Guided-Learning-System
-Learnify helps students learn new concepts through faculty-guided resources, making it easier to navigate the overwhelming amount of information available online. It also provides access to top LeetCode questions with direct links to the original problems.
+Learnify is an organization-oriented platform developed to enhance learning and interview preparation within educational institutions. Faculty can organize and recommend learning resources, making it easier to navigate the overwhelming amount of information available online. While students gain access to structured study materials and a curated collection of top LeetCode questions with direct links to the original problems, creating a streamlined and efficient learning experience.
