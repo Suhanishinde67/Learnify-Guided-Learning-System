@@ -10,113 +10,178 @@ By centralizing educational resources and coding practice materials, Learnify cr
 ## ✨ Features
 
 ### 👨‍🏫 Faculty Module
-- Faculty Registration & Login
+- Faculty login and authentication
 - Create and manage learning topics
 - Upload and organize learning resources
-- Recommend study materials for specific subjects
-- Manage topic-wise learning content
+- Recommend study materials
+- Manage topic-wise educational content
 
 ### 👨‍🎓 Student Module
-- Student Registration & Login
-- Browse faculty-curated learning resources
-- Learn concepts through structured study materials
-- Access topic-wise educational content
-- Track learning progress
+- Student login and authentication
+- Browse learning resources
+- Access topic-wise study materials
+- View faculty recommendations
+- Prepare for coding interviews
 
-### 💻 Coding Interview Preparation
-- Curated collection of top LeetCode questions
-- Direct links to the original LeetCode problems
-- Simplified access to coding practice resources
+### 💻 Coding Interview Repository
+- Curated Top LeetCode interview questions
+- Direct links to original LeetCode problems
+- Easy navigation for coding practice
 
-### 🔐 User Authentication
-- Secure login system
-- Role-based access for Students and Faculty
-- Authentication and authorization management
-
-### 📚 Centralized Learning Platform
-- Organized educational resources
-- Reduced dependency on scattered online content
-- Easy navigation through structured learning paths
+### 🔐 Authentication
+- Admin Login
+- Faculty Login
+- Student Login
+- Role-based access control
 
 ---
 
-## 💻 Tech Stack
+# 📸 Screenshots
+
+## Login
+![Student Login](screenshots/studentLogin.png)
+
+## Sign Up
+![Sign Up](screenshots/signup.png)
+
+## Admin Dashboard
+![Admin Dashboard](screenshots/adminDashboard.png)
+
+## Faculty Dashboard
+![Faculty Dashboard](screenshots/facultyDashboard.png)
+
+## Student Dashboard
+![Student Dashboard](screenshots/studentDashboard.png)
+
+## Company Information
+![Company Information](screenshots/companyInfo.png)
+
+## LeetCode Repository
+![LeetCode Repository](screenshots/leetcodeQue.png)
+
+## Question Bank Explorer
+![Question Bank Explorer](screenshots/QuestionBankEx.png)
+
+## Quiz Module
+![Quiz Module](screenshots/MCQTest.png)
+
+## Practice MCQ
+![Practice MCQ](screenshots/practiceMCQ.png)
+
+## Student Dashboard (Resources View)
+![Student Resources](screenshots/studentDashboard.png)
+
+---
+
+## 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
 | Java | Application Development |
 | MySQL | Database Management |
 | JDBC | Database Connectivity |
-| Object-Oriented Programming (OOP) | Software Design |
-| GitHub | Version Control |
+| Git | Version Control |
+| GitHub | Repository Hosting |
 
 ---
 
-## 🛠 Key Concepts Implemented
+## 📂 Project Structure
 
-- Object-Oriented Programming (OOP)
-- JDBC Connectivity
-- SQL Queries
-- User Authentication & Authorization
-- Role-Based Access Control
-- Database Design
-- Exception Handling
-- Version Control using GitHub
+```text
+Learnify-Guided-Learning-System
+│
+├── src/              # Java source code
+├── database/         # MySQL database script
+├── screenshots/      # Project screenshots
+├── icon/             # Application icons
+├── lib/              # External libraries
+├── nbproject/        # NetBeans configuration
+├── .gitignore
+├── README.md
+├── build.xml
+└── manifest.mf
+```
 
 ---
 
-## 📂 Project Modules
+## ⚙️ Installation
 
-- Authentication Module
-- Student Module
-- Faculty Module
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/Learnify.git
+```
+
+### 2. Open the project
+
+Import the project into **Apache NetBeans IDE**.
+
+### 3. Create the database
+
+Create a MySQL database named:
+
+```text
+interview
+```
+
+### 4. Import the database
+
+Import:
+
+```text
+database/interview.sql
+```
+
+using MySQL Workbench.
+
+### 5. Configure database credentials
+
+Update your MySQL username and password in the database connection class.
+
+### 6. Run the project
+
+Build and run the project from Apache NetBeans IDE.
+
+---
+
+## 📦 Modules
+
+- Authentication
+- Student Management
+- Faculty Management
 - Learning Resource Management
 - Topic Management
-- Database Module
+- LeetCode Repository
+- Database Management
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Personalized learning recommendations
-- Online quizzes and assessments
-- Coding challenge submissions
-- Discussion forum for students and faculty
-- Resource rating and feedback system
-- Email notifications and announcements
-- Cloud deployment
-- Mobile application support
+- Guided Learning Paths
+- Online Quizzes
+- Coding Challenge Submissions
+- AI-based Learning Recommendations
+- Discussion Forum
+- Email Notifications
+- Cloud Deployment
 
 ---
 
-## 📈 Learning Outcomes
-
-This project strengthened my understanding of:
-
-- Java Programming
-- Object-Oriented Programming
-- JDBC
-- MySQL Database Management
-- User Authentication
-- Database Design
-- Software Development Principles
-- Problem Solving
-- GitHub
-
----
-
-## 👩‍💻 Developed By
+## 👩‍💻 Developer
 
 **Suhani Shinde**
 
 **MCA Student | Java Developer | DSA Enthusiast | Cloud Learner**
 
-📧 Email: shindesuhani535@gmail.com
+📧 **Email:** shindesuhani535@gmail.com
 
-🔗 LinkedIn: *https://www.linkedin.com/in/suhani-shinde-236934385*
+🔗 **LinkedIn:** https://www.linkedin.com/in/suhani-shinde-236934385
 
 ---
 
 ## ⭐ Support
 
 If you found this project helpful or interesting, consider giving it a ⭐ on GitHub!
+
+
